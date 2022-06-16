@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+
+
+
+#imgheader{
+    background-image:  linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(img/bolofrutas.jpg);
+    height: 90vh;
+    background-position: center; /*Centralizou a foto*/
+    background-size: cover;/*maximo possivel na area util q tenho*/
+    display: flex;
+    justify-content: space-around;/*espaço todos os lados*/
+    align-items: center;
+    color: #eee;
+}
+
+#intro{
+    max-width: 600px;
+}
+
+#quero{
+    font-size: 3.5em;
+    margin-bottom: 1em;
+    color:  #ffb2ce;
+}
+
+#sobre{
+    font-size: 25px;
+    text-transform: uppercase; 
+    max-width: 400px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.btn{
+    background-color: #fac6d9;
+    padding: 7px;
+    text-decoration: none;
+    margin-top: 0.5em;
+    width: 15.6em;
+    font-size: 16px;
+    border-radius: 8px;    
+    transition: 0.5s;
+    border: none;
+    outline: none;/*borda acendida*/
+    text-transform: uppercase; /*Deixar em caixa alta*/
+    cursor: pointer; /*Para aparecer o cursor do mouse quando o usuario clica*/
+    opacity: 0.8; /*Criar um efeito de acender o meu hover daqui de baixo*/
+}
+    
+.btn:hover {
+        opacity: 1;
+
+    }
+
+#cad{
+    max-width: 310px;
+    background-color: #A4003D;
+    padding: 2em;
+    border-radius: 8px;
+}
+
+#part{
+    font-size: 20px;
+    padding-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+.lab{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.beneficios{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4em;
+    width: 80%; /*80% da area útil*/
+    margin: 0 auto;/*0 automatico pra poder centralizar esse conteúdo já que a gente definiu uma largura*/
+}
+
+.beneficio{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.beneficioimg{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em; /*espaço embaixo*/
+}
+
+#beneficio1{
+    background-image: url(img/brigadeiro.jpg);
+}
+
+#beneficio2{
+    background-image: url(img/tortachocolate.jpg);
+}
+
+#beneficio3{
+    background-image: url(img/pudim.jpg);
+}
+
+
+#h2{
+    height: 100px;
+    background-color: #A4003D;
+    color: #eee;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.p{
+    text-align: center;
+    width: 60%;
+ 
+}
+
+
+
+#sessao{
+    height: 400px;
+}
+
+.sessao{
+    background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url(img/suspiro.jpg);
+    height: 35vh ;    
+    background-position: center;    
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;/*espaço todos os lados*/
+    align-items: center;
+    color: #eee;
+    margin-bottom: 4em;
+
+}
+
+#sessaop p{
+    width: 700px;
+    font-size: 1.5em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.inp{
+    margin-bottom: 1em;
+    padding: 7px;
+    border-radius: 8px;
+    width: 250px;
+    border: none;
+    outline: none;/*tirar borda acendida*/
+}
+
+#div{
+    max-width: 500px;
+}
+
+/*Details*/
+
+#details {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%; /* tipo um espaçamento interno*/
+    margin-bottom: 4em;
+}
+
+.detail img {
+    width: 50%;
+}
+
+.detail h3 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#detail-1 h3 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.detail-description {
+    width: 100%;
+    padding-left: 2em;
+}
+
+.detail-description ul {
+    list-style-position: inside; /*Deixa minha ul bonita dentro do conteúdo*/
+}
+
+.detail-description ul li {
+    margin-bottom: 0.4em;
+}
+
+.detail-description ul li:last-child { /*:last-child trabalha no ultimo intem do li, deixei negrito*/
+    font-weight: bold ;
+}
+
+#rodape{
+    background-color: #A4003D;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #000;
+}
+
+#rodape h2 {
+    margin-bottom: 0.3em;
+    font-size: 3em;
+}
+
+#icons{
+    width: 300px;
+    text-align: center;
+}
+
+#icons p{
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+#bicons{
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
