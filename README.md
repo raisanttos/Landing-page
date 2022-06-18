@@ -1,2 +1,2 @@
 # Landing-page
- landing-page de bolos
+ landing-pages
